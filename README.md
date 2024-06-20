@@ -16,8 +16,8 @@ This project provides a simple API for text summarization using FastAPI and Hugg
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/text-summarization-api.git
-    cd text-summarization-api
+    git clone https://github.com/hudhayfah36/summarizer-huggingface-api.git
+    cd summarizer-huggingface-api
     ```
 
 2. **Install Poetry if not already installed:**
