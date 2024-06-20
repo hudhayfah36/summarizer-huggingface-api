@@ -10,10 +10,7 @@ This project provides a simple API for text summarization using FastAPI and Hugg
 ## Requirements
 
 - Python 3.7+
-- FastAPI
-- Transformers
-- Pydantic
-- Uvicorn
+- Poetry
 
 ## Installation
 
@@ -23,15 +20,19 @@ This project provides a simple API for text summarization using FastAPI and Hugg
     cd text-summarization-api
     ```
 
-2. **Create a virtual environment and activate it:**
+2. **Install Poetry if not already installed:**
     ```bash
-    python -m venv env
-    source env/bin/activate    # On Windows use `env\Scripts\activate`
+    curl -sSL https://install.python-poetry.org | python3 -
     ```
 
-3. **Install the required packages:**
+3. **Install the dependencies using Poetry:**
     ```bash
-    pip install fastapi transformers pydantic uvicorn
+    poetry install
+    ```
+
+4. **Activate the virtual environment:**
+    ```bash
+    poetry shell
     ```
 
 ## Usage
